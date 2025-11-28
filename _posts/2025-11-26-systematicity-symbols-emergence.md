@@ -26,6 +26,8 @@ We should also touch upon Fodor's famous **Language of Thought (LoT)** hypothesi
 
 Despite these debates, Fodor remained steadfast in his belief that compositionality is a fundamental property of our mental structure, and that for anything to be called a "mind," there must be a mechanism capable of manipulating symbols. Naturally, he viewed connectionist networks, modeled by neurons and connection weights, with skepticism, as they seemed incapable of explaining such a compositional structure.
 
+<br/>
+
 ## Three Responses to the Systematicity Challenge
 
 The reactions to this debate can be broadly categorized into three approaches. (For a more comprehensive discussion, see Hummel's "Getting Symbols out of a Neural Architecture" (Hummel, 2011).)
@@ -37,6 +39,8 @@ The reactions to this debate can be broadly categorized into three approaches. (
 We should also mention Gary Marcus's critique of **gradient descent (GD)** in the early 2000s. In works like *The Algebraic Mind* (Marcus, 2001), Marcus argued that GD-based optimization, which relies on local information, cannot learn structures that process symbols. Specifically, he argued that compositional symbol processing requires mechanisms for **variable binding**, which GD is fundamentally unable to learn. Whether modern neural networks trained with GD-based algorithms perform variable binding well remains an open question and an active research topic (Wu et al., 2025). Note that while Marcus broadly belongs to the camp seeking to reconcile connectionism with symbol-processing mechanisms, he is sometimes misunderstood as rejecting connectionism itself, presumably because in today's AI research, connectionist neural networks have become virtually synonymous with the ones obtained via GD-based optimization.
 
 **The third** response is **eliminative connectionism**, a term coined by Steven Pinker in 1988 (Pinker & Prince, 1988). This view rejects the very necessity of symbolic processing mechanisms for performing functions like cognition. It argues that if a system behaves intelligently, that *is* intelligence; we need not postulate any underlying mechanism that aligns with our subjective expectations. If a neural network, through an appropriate combination of weights, produces the expected behavior, we need not demand any further principles.
+
+<br/>
 
 ## Eliminative Connectionism in the 2020s, and the Persistent Desire for Symbols
 
@@ -52,6 +56,8 @@ The first (implicitly) maintains the eliminative connectionist view, treating th
 The second camp feels discomfort with these failures and seeks to decompose and understand how neural networks actually operate. This leads directly to **Mechanistic Interpretability (MI)**, a reductionist attempt to reverse-engineer neural networks and explain their operation through intelligible interactions of components at a meso-scale (larger than individual neurons but smaller than the whole). While MI can be pursued for various purposes (e.g., pure curiosity, or the belief that understanding internal workings is necessary for safe control), I suggest that, viewed in this broader context, MI can be interpreted as driven by a desire to find symbol processing within connectionist networks. In other words, it reflects a wish to reject eliminative connectionism. Thus, while MI as a subfield developed around 2020, tracing its context reveals that it can be situated within a deep-rooted debate in philosophy of mind.
 
 In summary, the academic community of the 2020s has yet to find consensus on the debate initiated by Fodor. Some believe the current paradigm of training connectionist networks via SGD has fundamental limitations requiring entirely different alternatives. Others expect that reverse-engineering the symbol-processing mechanisms of modern models will yield clues for breakthroughs. Yet another camp believes these problems can be gradually overcome within the current paradigm through more data and better processing. At least for now, the ultimate direction of the field remains an open question. Numerous research topics across subfields (disentanglement, MI, causality, compositional generalization, out-of-distribution generalization, geometric deep learning, data augmentation) swirl within this larger picture.
+
+<br/>
 
 ## Symbols and Emergence
 
