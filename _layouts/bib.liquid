@@ -51,6 +51,7 @@
     <div class="title">{{ entry.title }}</div>
     <!-- Author -->
     <div class="author">
+      {% assign has_equal_contribution = false %} {% assign author_array_size = entry.author_array | size %}
       {% assign author_array_size = entry.author_array | size %}
 
       {% assign author_array_limit = author_array_size %}
@@ -61,6 +62,9 @@
       {%- for author in entry.author_array limit: author_array_limit -%}
         {% assign author_is_self = false %}
         {%- assign author_last_name = author.last | regex_replace: '[*∗†‡§¶‖&^]', '' -%}
+        {% if author.last contains '*' %}
+          {% assign has_equal_contribution = true %}
+        {% endif %}
         {%- assign author_last_html = author.last | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' -%}
         {% if site.scholar.last_name contains author_last_name %}
           {% if site.scholar.first_name contains author.first %}
@@ -146,6 +150,22 @@
         >
         </i>
       {% endif %}
+
+    {% if entry.annotation %}
+      <i
+        class="fa-solid fa-circle-info ml-1"
+        data-toggle="popover"
+        data-placement="top"
+        data-html="true"
+        data-content="{{ entry.annotation | escape }}"
+      >
+      </i>
+    {% endif %}
+
+    {% if has_equal_contribution %}
+      <span class="equal-contribution-note"></span>
+    {% endif %}
+
     </div>
 
     <!-- Journal/Book title and date -->
@@ -154,21 +174,15 @@
     {% if entry.type == 'article' %}
       {% capture entrytype %}<em>{{ entry.journal }}</em>{% endcapture %}
     {% elsif proceedings contains entry.type %}
-      {% capture entrytype %}<em>In {{ entry.booktitle }}</em>{% endcapture %}
+      {% capture entrytype %}<em>{{ entry.booktitle }}</em>{% endcapture %}
     {% elsif thesis contains entry.type %}
       {% capture entrytype %}<em>{{ entry.school }}</em>{% endcapture %}
     {% else %}
       {% capture entrytype %}{% endcapture %}
     {% endif %}
-    {% if entry.month %}
-      {% capture entrymonth %}{{ " " }}{{ entry.month | capitalize }}{% endcapture %}
-    {% endif %}
     {% if entry.year %}
       {% capture entryyear %}{{ " " }}{{ entry.year }}{% endcapture %}
     {% endif %}
-    {% if entry.location %}
-      {% capture entrytype %}{{ entrytype }}{{ ", " }}{{ entry.location }}{% endcapture %}
-    {% endif -%}
     {% if entry.additional_info %}
       {% capture entrytype %}{{ entrytype }}{{ entry.additional_info | markdownify | remove: '<p>' | remove: '</p>' }}{% endcapture %}
     {% endif %}
@@ -177,7 +191,7 @@
       {% include hook/bib.liquid %}
     {% endif %}
     {% assign entrytype_text = entrytype | strip_html | strip %}
-    {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% endcapture %}
+    {% capture periodical %}{{ entrytype }}{{ entrymonth }}{{ entryyear }}{% endcapture %}
     <div class="periodical">
       {{ periodical | strip }}
     </div>
