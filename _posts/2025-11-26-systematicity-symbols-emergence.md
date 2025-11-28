@@ -18,7 +18,7 @@ This connectionist optimism was understandable. Previous philosophical discussio
 
 The crux of their argument was simple: connectionist approaches do not seem to be capable of explaining **systematicity**, a characteristic evidently possessed by human thought and mental representation. Systematicity is most intuitively explained through examples: anyone who can understand *"The rug is under the chair"* can inherently understand *"The chair is under the rug"*. This connects to compositionality, which posits that any complex expression can be fully understood through its constituent parts and the rules of their combination. Hence, systematicity is often regarded as evidence for the requirement of compositionality (For a deeper discussion of these concepts, refer to Zoltán Szabó's entry on "Compositionality" in the Stanford Encyclopedia of Philosophy (Szabó, 2020).)
 
-In this post, I want to revisit Fodor's argument: that it is difficult to explain cognitive systematicity without a mechanism that explicitly and compositionally manipulates symbols.
+In this post, I want to revisit Fodor's challenge that it is difficult to explain cognitive systematicity without a mechanism that explicitly and compositionally manipulates symbols.
 
 It would be helpful to briefly discuss Fodor's **Language of Thought (LoT)** hypothesis (Fodor, 1975) to understand the context. Through LoT, Fodor argued that the structure of thought can be conceived in linguistic terms since human thought has a compositional structure like language. While the LoT hypothesis seems intuitive, it faces several counterarguments, for example:
 
