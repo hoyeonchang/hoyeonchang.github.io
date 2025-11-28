@@ -14,16 +14,16 @@ related_posts: true
 
 In 1988, Jerry Fodor and Zenon Pylyshyn published a seminal critique titled *"Connectionism and Cognitive Architecture: A Critical Analysis"* (Fodor & Pylyshyn, 1988). At the time, connectionism was gaining significant traction, fueled by breakthroughs in brain research. For instance, researchers had discovered that functionally distinct cortical areas share a remarkably similar neuronal structure. Such advances led to a growing belief that higher-order problems like thought and intelligence could be reduced to, and understood through, the way such neurons connect to encode information.
 
-This connectionist optimism was understandable. Previous philosophical discussions on the mechanisms of thought relied heavily on subjective phenomena rather than objective, empirical backing. The promise that the brain could be objectively understood through the interaction of neurons via synapses seems to be, back then and even now, constructive and compelling. In this context, Fodor's critique was a provocative theoretical challenge.
+This connectionist optimism was understandable. Previous philosophical discussions on the mechanisms of thought relied heavily on subjective phenomena rather than objective, empirical backing. The promise that the brain could be objectively understood through the interaction of neurons via synapses seems to be constructive and compelling. In this context, Fodor's critique was a provocative theoretical challenge.
 
-The crux of their argument was simple: connectionist approaches do not seem to be capable of explaining **systematicity**, a characteristic evidently possessed by human thought and mental representation. Systematicity is most intuitively explained through examples: anyone who can understand *"The rug is under the chair"* can inherently understand *"The chair is under the rug"*. This connects to compositionality, which posits that any complex expression can be fully understood through its constituent parts and the rules of their combination. Hence, systematicity is often regarded as an evidence for the requirement of compositionality (For a deeper discussion of these concepts, refer to Zoltán Szabó's entry on "Compositionality" in the Stanford Encyclopedia of Philosophy (Szabó, 2020).)
+The crux of their argument was simple: connectionist approaches do not seem to be capable of explaining **systematicity**, a characteristic evidently possessed by human thought and mental representation. Systematicity is most intuitively explained through examples: anyone who can understand *"The rug is under the chair"* can inherently understand *"The chair is under the rug"*. This connects to compositionality, which posits that any complex expression can be fully understood through its constituent parts and the rules of their combination. Hence, systematicity is often regarded as evidence for the requirement of compositionality (For a deeper discussion of these concepts, refer to Zoltán Szabó's entry on "Compositionality" in the Stanford Encyclopedia of Philosophy (Szabó, 2020).)
 
 In this post, I want to revisit Fodor's argument: that it is difficult to explain cognitive systematicity without a mechanism that explicitly and compositionally manipulates symbols.
 
 It would be helpful to briefly discuss Fodor's **Language of Thought (LoT)** hypothesis (Fodor, 1975) to understand the context. Through LoT, Fodor argued that the structure of thought can be conceived in linguistic terms since human thought has a compositional structure like language. While the LoT hypothesis seems intuitive, it faces several counterarguments, for example:
 
 1. Its persuasiveness relies on subjective mental representation (phenomenology) and says little about how it operates mechanistically. Efforts to resolve this continue; for an interesting example, see Piantadosi's work on the computational origin of representation (Piantadosi, 2021).
-2. The compositionality posited by LoT might be a *byproduct* of mental representations rather than the *causal mechanism* that enables thought, the view resonates with 'eliminative connectionism' we discuss later.
+2. The compositionality posited by LoT might be a *byproduct* of mental representations rather than the *causal mechanism* that enables thought, a view that resonates with 'eliminative connectionism' we discuss later.
 
 In short, Fodor believed that compositionality is a fundamental property of our mental structure, and that for anything to be called a "mind," there must be a mechanism capable of manipulating symbols. Naturally, he viewed connectionist networks, modeled by neurons and connection weights, with skepticism, as they seemed to be incapable of explaining such a compositional structure.
 
@@ -88,11 +88,11 @@ Hummel, J. E. (2011). Getting symbols out of a neural architecture. *Connection 
 
 Lake, B., & Baroni, M. (2018). Generalization without systematicity: On the compositional skills of sequence-to-sequence recurrent networks. *International Conference on Machine Learning (ICML)*.
 
-Marcus, G. F. (2003). *The Algebraic Mind: Integrating Connectionism and Cognitive Science*. MIT Press.
+Marcus, G. F. (2001). *The Algebraic Mind: Integrating Connectionism and Cognitive Science*. MIT Press.
 
 Mirzadeh, I., Alizadeh, K., Shahrokhi, H., Tuzel, O., Bengio, S., & Farajtabar, M. (2024). GSM-Symbolic: Understanding the Limitations of Mathematical Reasoning in Large Language Models. *arXiv preprint arXiv:2410.05229*.
 
-Monod, J. (1974). On chance and necessity. In Studies in the Philosophy of Biology: Reduction and Related Problems (pp. 357-375). London: Macmillan Education UK.
+Monod, J. (1971). *Chance and Necessity: An Essay on the Natural Philosophy of Modern Biology* (A. Wainhouse, Trans.). Alfred A. Knopf.
 
 Piantadosi, S. T. (2021). The computational origin of representation. *Minds and Machines, 31*, 1–58.
 
