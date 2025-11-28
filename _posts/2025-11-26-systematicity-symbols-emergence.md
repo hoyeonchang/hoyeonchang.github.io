@@ -12,7 +12,7 @@ related_posts: true
 <div style="text-align: justify;" markdown="1">
 ## Fodor & Pylyshyn (1988) and the Systematicity Debate
 
-In 1988, the Jerry Fodor and Zenon Pylyshyn published a seminal critique titled *"Connectionism and Cognitive Architecture: A Critical Analysis"* (Fodor & Pylyshyn, 1988). At the time, connectionism was gaining significant traction, fueled by breakthroughs in brain research. For instance, researchers had discovered that functionally distinct cortical areas share a remarkably similar neuronal structure. This led to a growing belief that higher-order problems like thought and intelligence could be reduced to, and understood through, the way such neurons connect to encode information.
+In 1988, Jerry Fodor and Zenon Pylyshyn published a seminal critique titled *"Connectionism and Cognitive Architecture: A Critical Analysis"* (Fodor & Pylyshyn, 1988). At the time, connectionism was gaining significant traction, fueled by breakthroughs in brain research. For instance, researchers had discovered that functionally distinct cortical areas share a remarkably similar neuronal structure. This led to a growing belief that higher-order problems like thought and intelligence could be reduced to, and understood through, the way such neurons connect to encode information.
 
 This connectionist optimism was understandable. Previous philosophical discussions on the mechanisms of thought relied heavily on subjective phenomena rather than objective, empirical backing. The promise that the brain could be objectively understood through the interaction of neurons via synapses seems to be, back then and even now, constructive and compelling. In this context, Fodor's critique was a provocative theoretical challenge.
 
