@@ -9,6 +9,7 @@ featured: false
 related_posts: true
 ---
 
+<div style="text-align: justify;" markdown="1">
 ## Fodor & Pylyshyn (1988) and the Systematicity Debate
 
 In 1988, the analytic philosopher Jerry Fodor and Zenon Pylyshyn published a seminal critique titled *"Connectionism and Cognitive Architecture: A Critical Analysis"* (Fodor & Pylyshyn, 1988). At the time, connectionism was gaining significant traction, fueled by breakthroughs in brain research. For instance, researchers had discovered that functionally distinct cortical areas share a remarkably similar neuronal structure. This led to a growing belief that higher-order problems like thought and intelligence could be reduced to, and understood through, the way such neurons connect to encode information.
@@ -100,3 +101,5 @@ Pinker, S., & Prince, A. (1988). On language and connectionism: Analysis of a pa
 Smolensky, P. (1990). Tensor product variable binding and the representation of symbolic structures in connectionist systems. *Artificial Intelligence, 46*(1-2), 159–216.
 
 Szabó, Z. G. (2020). Compositionality. *The Stanford Encyclopedia of Philosophy*.
+
+</div>
