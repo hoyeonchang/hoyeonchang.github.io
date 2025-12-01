@@ -4,16 +4,19 @@
   description: Founded and leading a monthly interdisciplinary academic group inspired by Norbert Wiener’s project on cybernetics, bringing together graduate students from philosophy, neuroscience, linguistics, computer science, physics, and education. The group explores fundamental questions about thinking, meaning, and intelligence through collaborative discussions and projects.
 
 - role: Research Intern
-  company: "KAIST LK Lab (Advisor: Minjoon Seo)"
+  company: "KAIST LK Lab"
   year: Feb 2022 - Aug 2022
+  description: "Advisor: Minjoon Seo"
 
 - role: Research Intern
-  company: "SNU LDI Lab (Advisor: Seung-won Hwang)"
+  company: "SNU LDI Lab"
   year: Sep 2021 - Jan 2022
+  description: "Advisor: Seung-won Hwang"
 
 - role: Research Intern
-  company: "SNU CHANGLab (Advisor: Hyeshik Chang)"
+  company: "SNU CHANGLab"
   year: Dec 2020 - Feb 2021
+  description: "Advisor: Hyeshik Chang"
 
 - role: Undergraduate Researcher
   company: SNU Undergraduate Research Program
