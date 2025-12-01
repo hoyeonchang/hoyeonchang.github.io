@@ -10,6 +10,7 @@ related_posts: true
 ---
 
 <div style="text-align: justify;" markdown="1">
+
 ## Fodor & Pylyshyn (1988) and the Systematicity Debate
 
 In 1988, Jerry Fodor and Zenon Pylyshyn published a seminal critique titled *"Connectionism and Cognitive Architecture: A Critical Analysis"* (Fodor & Pylyshyn, 1988). At the time, connectionism was gaining significant traction, fueled by breakthroughs in brain research. For instance, researchers had discovered that functionally distinct cortical areas share a remarkably similar neuronal structure. Such advances led to a growing belief that higher-order problems like thought and intelligence could be reduced to, and understood through, the way such neurons connect to encode information.
@@ -68,9 +69,7 @@ In these moments, it is very tempting to use the word **"emergence"** : We scale
 
 It is interesting to observe that this **mystification** of certain complex phenomena has repeated throughout the history of science. Concepts like chemical bonding or life were once considered "emergent": difficult to explain but clearly present before our eyes. While emergence is seriously studied in complexity science, it is hard to shake the feeling that we sometimes use the word to offload things we cannot yet reduce to current knowledge. Historically, once a "new science" successfully explains a mysterious target reductively, previous attempts to settle the matter with the word "emergence" come to be viewed as antiquated. (Consider how the molecular biologist Jacques Monod sharply criticized Bergson's philosophy in *Chance and Necessity* (Monod, 1971).)
 
-Of course, the systematicity we seek might indeed emerge from the current paradigm. Or it might be something that appears and is eventually understood as we continue this direction. We cannot know the future. But scientists who seek to reduce and understand complex phenomena cannot deny the strong desire to not settle for the comfort of emergence, but to deconstruct the problem or introduce new science to explain it. With no one knowing the answer, everyone is groping forward step by step within their own beliefs.
-
-So, to me, the most important questions that keep ringing in my head are: What exactly is compositional symbol processing? How can it be implemented? Is it strictly necessary for genuine intelligence? Can it be naturally obtained through scale? How should we understand the "partially compositional" models before us? Is emergence a sufficient concept to entrust with explaining this phenomenon?
+Of course, the systematicity we seek might indeed emerge from the current paradigm. Or it might be something that appears and is eventually understood as we continue this direction. We cannot know the future. But scientists who seek to reduce and understand complex phenomena cannot deny the strong desire to not settle for the comfort of emergence, but to deconstruct the problem or introduce new science to explain it. So, to me, the most important questions that keep ringing in my head are: What exactly is compositional symbol processing? How can it be implemented? Is it strictly necessary for genuine intelligence? Can it be naturally obtained through scale? How should we understand the "partially compositional" models before us? Is emergence a sufficient concept to entrust with explaining this phenomenon?
 
 ---
 
