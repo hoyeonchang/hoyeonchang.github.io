@@ -75,9 +75,9 @@ Of course, the systematicity we seek might indeed emerge from the current paradi
 
 ## References
 
-Dziri, N., Lu, X., Sclar, M., Li, X. L., Jiang, L., Lin, B. Y., Welleck, S., West, P., Bhagavatula, C., Le Bras, R., Hwang, J. D., Sanber, S., Ren, X., & Choi, Y. (2023). Faith and Fate: Limits of Transformers on Compositionality. *Advances in Neural Information Processing Systems (NeurIPS)*.
+Dziri, N., Lu, X., Sclar, M., Li, X. L., Jiang, L., Lin, B. Y., Welleck, S., West, P., Bhagavatula, C., Le Bras, R., Hwang, J. D., Sanber, S., Ren, X., & Choi, Y. (2023). Faith and Fate: Limits of Transformers on Compositionality. *Advances in Neural Information Processing Systems*.
 
-Wu, Y., Geiger, A., & Millière, R. (2025). How Do Transformers Learn Variable Binding in Symbolic Programs? *Forty-Second International Conference on Machine Learning*.
+Wu, Y., Geiger, A., & Millière, R. (2025). How Do Transformers Learn Variable Binding in Symbolic Programs? *International Conference on Machine Learning*.
 
 Fodor, J. A. (1975). *The Language of Thought*. Harvard University Press.
 
@@ -85,7 +85,7 @@ Fodor, J. A., & Pylyshyn, Z. W. (1988). Connectionism and cognitive architecture
 
 Hummel, J. E. (2011). Getting symbols out of a neural architecture. *Connection Science, 23*(2), 109–118.
 
-Lake, B., & Baroni, M. (2018). Generalization without systematicity: On the compositional skills of sequence-to-sequence recurrent networks. *International Conference on Machine Learning (ICML)*.
+Lake, B., & Baroni, M. (2018). Generalization without systematicity: On the compositional skills of sequence-to-sequence recurrent networks. *International Conference on Machine Learning*.
 
 Marcus, G. F. (2001). *The Algebraic Mind: Integrating Connectionism and Cognitive Science*. MIT Press.
 
