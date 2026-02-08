@@ -29,9 +29,9 @@ retapurayo (at) kaist.ac.kr
 
 <div style="text-align: justify;" markdown="1">
 I am a Ph.D. student at KAIST Graduate School of AI, advised by [Minjoon Seo](https://seominjoon.github.io/) and [Seongjoon Oh](https://seongjoonoh.com/).
+  
 My research investigates the structural foundations of intelligence: specifically, how systematic compositionality and robust belief revision can be realized in connectionist networks. Currently, I am exploring the interface of Category Theory and the geometry of neural representations, aiming to uncover the structural constraints that govern generalization. I deeply value interdisciplinary insights and enjoy connecting ideas from philosophy, linguistics, cognitive science, and mathematics to build a comprehensive picture of knowledge.
 
 Previously, I obtained a B.S. in Electrical & Computer Engineering and Biological Sciences from Seoul National University.
-
 Outside of research, [I am a jazz pianist and occasionally play at jazz clubs in Seoul](https://www.youtube.com/@alpaca4199).
 </div>
