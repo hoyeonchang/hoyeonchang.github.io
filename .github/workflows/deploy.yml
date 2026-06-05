@@ -74,17 +74,8 @@ jobs:
       - name: Setup Ruby 💎
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.3.5"
-          bundler-cache: false
-      - name: Install system dependencies 📦
-        run: sudo apt-get update && sudo apt-get install -y build-essential patch ruby-dev zlib1g-dev liblzma-dev libxml2-dev libxslt-dev
-      - name: Install Bundler & Gems 📦
-        run: |
-          gem install bundler
-          bundle config set --local force_ruby_platform false
-          bundle lock --add-platform x86_64-linux
-          bundle config set --local jobs 1
-          bundle install
+          ruby-version: "3.2"
+          bundler-cache: true
       - name: Setup Python 🐍
         uses: actions/setup-python@v5
         with:
