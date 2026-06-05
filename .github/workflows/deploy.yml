@@ -76,6 +76,8 @@ jobs:
         with:
           ruby-version: "3.3.5"
           bundler-cache: false
+      - name: Install system dependencies 📦
+        run: sudo apt-get update && sudo apt-get install -y libxml2-dev libxslt-dev
       - name: Install Bundler & Gems 📦
         run: |
           gem install bundler
