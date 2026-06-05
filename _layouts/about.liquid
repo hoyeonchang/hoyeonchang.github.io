@@ -95,6 +95,14 @@ layout: default
       </div>
     {% endif %}
 
+    <!-- Publications -->
+    {% if page.publications %}
+      <h2 id="publications" class="mt-4">Publications</h2>
+      <div class="publications">
+        {% bibliography %}
+      </div>
+    {% endif %}
+
     {% if site.data.languages %}
       <h2 class="mt-4">Languages</h2>
       <div class="table-responsive">
@@ -116,14 +124,6 @@ layout: default
       </div>
     {% endif %}
 
-    <!-- Publications -->
-    {% if page.publications %}
-      <h2 id="publications" class="mt-4">Publications</h2>
-      <div class="publications">
-        {% bibliography %}
-      </div>
-    {% endif %}
-    
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
       {% include newsletter.liquid center=true %}
     {% endif %}

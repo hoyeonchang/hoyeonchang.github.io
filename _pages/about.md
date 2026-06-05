@@ -24,9 +24,7 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-<a href='https://scholar.google.com/citations?hl=en&user=jD4MD7sAAAAJ'>Google Scholar</a> /
-<a href='https://drive.google.com/file/d/1nVqfhcn9Kznd8x9VYoCEU6rb4S9Hb3CW/view?usp=sharing'>CV</a> /
-retapurayo (at) kaist.ac.kr
+E-mail: retapurayo (at) kaist.ac.kr
 
 <div style="text-align: justify;" markdown="1">
 I am a Ph.D. student at KAIST Graduate School of AI, advised by [Minjoon Seo](https://seominjoon.github.io/) and [Seongjoon Oh](https://seongjoonoh.com/).
