@@ -75,8 +75,21 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.2"
-          bundler-cache: true
-          bundler: "2.5.23"
+          bundler-cache: false
+      - name: Cache Gems 📦
+        uses: actions/cache@v4
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
+      - name: Install Bundler & Gems 📦
+        run: |
+          gem install bundler -v 2.6.9
+          bundle config set --local path vendor/bundle
+          bundle config set --local deployment true
+          bundle config set --local jobs 1
+          bundle install --retry 3
       - name: Setup Python 🐍
         uses: actions/setup-python@v5
         with:
