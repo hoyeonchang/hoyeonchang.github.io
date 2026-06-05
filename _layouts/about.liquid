@@ -115,6 +115,14 @@ layout: default
         </table>
       </div>
     {% endif %}
+
+    <!-- Publications -->
+    {% if page.publications %}
+      <h2 id="publications" class="mt-4">Publications</h2>
+      <div class="publications">
+        {% bibliography %}
+      </div>
+    {% endif %}
     
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
       {% include newsletter.liquid center=true %}

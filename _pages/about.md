@@ -11,6 +11,7 @@ profile:
   more_info: >
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
+publications: true # includes a list of all publications
 social: false # includes social icons at the bottom of the page
 
 announcements:

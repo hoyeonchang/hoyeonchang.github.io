@@ -1496,3 +1496,11 @@ figure.cover {
 mjx-container[jax="CHTML"][display="true"] {
   overflow-x: auto;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+#publications {
+  scroll-margin-top: 80px;
+}
