@@ -75,9 +75,12 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.3.5"
-          bundler-cache: true
-        env:
-          BUNDLE_JOBS: 1
+          bundler-cache: false
+      - name: Install Bundler & Gems 📦
+        run: |
+          gem install bundler
+          bundle config set --local jobs 1
+          bundle install
       - name: Setup Python 🐍
         uses: actions/setup-python@v5
         with:
