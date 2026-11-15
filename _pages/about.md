@@ -27,7 +27,7 @@ latest_posts:
 E-mail: retapurayo (at) kaist.ac.kr
 
 <div style="text-align: justify;" markdown="1">
-I am a Ph.D. student at KAIST Graduate School of AI, advised by [Minjoon Seo](https://seominjoon.github.io/) and [Seongjoon Oh](https://seongjoonoh.com/).
+I am a Ph.D. student at KAIST Graduate School of AI, advised by [Minjoon Seo](https://seominjoon.github.io/) and [Seong Joon Oh](https://seongjoonoh.com/).
 My research investigates the structural foundations of intelligence, asking what forms of representation and computation are necessary for systematic cognition in connectionist networks. My work examines how the structure and dynamics of neural representations relate to systematic generalization and belief revision. I deeply value interdisciplinary insights and enjoy connecting ideas from philosophy, linguistics, cognitive science, and mathematics to build a comprehensive picture of intelligence.
 
 Previously, I obtained a B.S. in Electrical & Computer Engineering and Biological Sciences from Seoul National University.
