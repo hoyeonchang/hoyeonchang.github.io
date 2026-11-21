@@ -24,7 +24,7 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-E-mail: retapurayo (at) kaist.ac.kr
+E-mail: (firstname).(lastname)@kaist.ac.kr
 
 <div style="text-align: justify;" markdown="1">
 I am a Ph.D. student at KAIST Graduate School of AI, advised by [Minjoon Seo](https://seominjoon.github.io/) and [Seong Joon Oh](https://seongjoonoh.com/).
